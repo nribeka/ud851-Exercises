@@ -8,10 +8,10 @@ public class WaitlistContract {
         // private constructor, can't instantiate this class
     }
 
-    // TODO (1) Create an inner class named WaitlistEntry class that implements the BaseColumns interface
+    // DONE (1) Create an inner class named WaitlistEntry class that implements the BaseColumns interface
     public static final class WaitlistEntry implements BaseColumns {
 
-        // TODO (2) Inside create a static final members for the table name and each of the db columns
+        // DONE (2) Inside create a static final members for the table name and each of the db columns
         public static final String TABLE_NAME = "waitlist";
         // TABLE_NAME -> waitlist;
 
